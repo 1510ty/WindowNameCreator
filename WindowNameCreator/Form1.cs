@@ -15,6 +15,7 @@ namespace WindowNameCreator
         private void button1_Click(object sender, EventArgs e)
         {
             this.Text = textBox1.Text;
+            MessageBox.Show("ïœçXÇ≥ÇÍÇ‹ÇµÇΩÅI","WindowNameCreator",MessageBoxButtons.OK,MessageBoxIcon.Information);
         }
     }
 }
